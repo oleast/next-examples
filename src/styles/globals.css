@@ -1,9 +1,41 @@
+:root {
+  --hvit: #fff;
+  --svart: #0e0e0e;
+  --overskyet: #e7e7e7;
+  --overskyet-kontrast: #cecece;
+  --soloppgang: #ffb88d;
+  --soloppgang-kontrast: #ff8034;
+  --skyfritt: #b1e8ff;
+  --skyfritt-kontrast: #43cbff;
+  --solnedgang: #f99;
+  --solnedgang-kontrast: #ff5b5b;
+  --kveld: #e5b1ff;
+  --kveld-kontrast: #8e24c9;
+  --natt: #6d7abb;
+  --natt-kontrast: #162365;
+  --regn: #bccedd;
+  --regn-kontrast: #7e9cb9;
+  --gul: #fff2ad;
+  --gul-kontrast: #fff02b;
+  --grønn: #a1f5e3;
+  --grønn-kontrast: #16dbc4;
+  --morgendis: #707070;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: var(--svart);
+  color: var(--hvit);
+  width: 100%;
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
 }
 
 a {

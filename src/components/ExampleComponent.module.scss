@@ -1,0 +1,32 @@
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  margin: 0 auto;
+  height: 100%;
+  text-align: center;
+}
+
+.header {
+  margin: 32px 0;
+}
+
+.main {
+  min-height: 100%;
+  margin: 32px 0;
+}
+
+.img {
+  width: 80px;
+  margin: auto;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  margin: 48px 0;
+  gap: 24px;
+}
+
+.footer {
+  margin: 32px 0;
+}
